@@ -1,0 +1,26 @@
+{
+  "name": "fitness_tracker",
+  "version": "1.0.0",
+  "description": "https://github.com/DanielG79/Getahun_Daniel_Weight_Loss_Tracker_Capstone.git",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/fitness_tracker#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
