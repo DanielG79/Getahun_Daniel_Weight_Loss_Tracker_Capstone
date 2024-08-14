@@ -15,3 +15,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness_tracker
 );
 
 module.exports = mongoose.connection;
+
+app.get("/api/config", (req, res) => {
+    res.json({ mongoURI: process.env.MONGODB_URI });
+});
