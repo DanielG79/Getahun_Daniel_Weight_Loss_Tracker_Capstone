@@ -156,3 +156,5 @@ const Cardio = () => {
 };
 
 export default Cardio;
+
+//  this Cardio component provides a user-friendly interface for adding new cardio exercises to the fitness tracker application. It handles form validation, data submission, and user authentication to ensure a smooth user experience.
