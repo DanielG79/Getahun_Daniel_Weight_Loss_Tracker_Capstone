@@ -1,4 +1,20 @@
-import decode from "jwt-decode";
+import { jwtDecode } from 'jwt-decode';
+
+// ...
+
+const getProfile = () => {
+  const token = getToken();
+  if (token) {
+    try {
+      return jwtDecode(token);
+    } catch (err) {
+      console.error(err);
+    }
+  }
+  return null;
+};
+
+// ...
 
 //AuthService that we instantiate a new version of for every component that imports it.
 class AuthService {
