@@ -13,3 +13,19 @@ A user-friendly web application built with the MERN stack (MongoDB, Express.js, 
 
   3.Exercise Deletion: Users have the ability to delete individual exercises from their workout log if necessary.
     The application aims to provide a seamless and intuitive experience for users to stay on top of their fitness routines, helping them achieve their health and wellness goals.
+
+
+# Issue with deployment
+
+![Image Alt Text](weight_loss_tracker\client\public\errorImg\deployment failed.png)
+
+![Image Alt Text](weight_loss_tracker\client\public\errorImg\error deployment.png)
+
+![Image Alt Text](weight_loss_tracker\client\public\errorImg\error3.png)
+
+![Image Alt Text](weight_loss_tracker\client\public\errorImg\error4.png)
+
+![Image Alt Text](weight_loss_tracker\client\public\errorImg\deploerror5.png)
+
+
+# YouTube-link
